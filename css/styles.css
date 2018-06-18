@@ -1,60 +1,95 @@
-.encabezado-right{
-    float: right;
+body{
+    margin: 0;
+    padding: 0;
+
 }
 .header {
   
     background-color: #f1f1f1;
     padding: 20px 10px;
+    position: relative;
+    width: 100%;
   } 
- img { 
+ #logo { 
         width: 100px; 
         height: 100px; 
         float: left;
         }
- ul {
+ .ul-menu {
          list-style-type: none;
          margin: 0;
          padding: 0;
          overflow: hidden;
-         background-color:black;
+         
     }
         
-        li {
+        .li-menu {
             float: right;
         }
         
-        li a {
+        .li-menu a {
             display: block;
             color: blue;
             text-align: center;
             padding: 40px;
             text-decoration: none;
+            font-family:'Lucida Sans';
         }   
-.side-menu{
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-}
-.desplegable {
-   font-size:30px;
-   cursor:pointer"
-}
+
 .menu-left{
     width: 200px;
+    height: 800px;
+    position: relative;
+    background-color: #f1f1f1;
 }
 .menu-left li a {
     display: block;
     color: blue;
-    text-align: center;
+    text-align: left;
     text-anchor: middle;
     padding: 40px;
     text-decoration: none;
 }
-        
+.cards{
+    position: relative;
+    display: flex;
+}
+.container {
+   
+    left: 300px;
+    top:-650px;
+    position: relative;
+}    
+
+.img-card{
+    width: 100%; 
+    height: 100%; 
+
+}
+.card{
+    position:absolute ;
+    margin: 0 auto;
+    text-align: center;
+     box-shadow:0 10px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); 
+    
+}
+.card-one{
+    position: relative;
+    left: 300px;
+    
+}
+.card-two{
+    position: relative;
+    left: 300px;
+    
+}
+.card-container{
+    position:  relative;
+    text-align: center;
+   /* box-shadow:0 10px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);*/
+    vertical-align: center;
+}
+
+
+
+

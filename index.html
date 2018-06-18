@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aplicación 1</title>
-    
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aplicación 1</title>
+
 </head>
+
 <body>
-    
+
         <div class="header">
-                
-               
-                        <ul>
-                                <a href="#default" class="logo"><img src="image/logo.png" alt="#about"></a>
-                               
-                                <li><a>Home</a></li>
-                                <li><a>Noticias</a></li>
-                                <li><a>Contacto</a></li>
-                                <li><a>Sobre nosotros</a></li>
-                        </ul>
-               
-              
+
+                <a href="#default" class="logo">
+                        <img id="logo" src="image/logo.png" alt="#about">
+                </a>
+                <ul class="ul-menu">
+
+
+                        <li class="li-menu">
+                                <a>Home</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Noticias</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Contacto</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Sobre nosotros</a>
+                        </li>
+                </ul>
+
+
         </div>
         <div class="menu-left">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Noticias</a></li>
-                    <li><a>Contacto</a></li>
-                    <li><a>Sobre nosotros</a></li>
+                <ul class="ul-menu">
+                        <li class="li-menu">
+                                <a>Home</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Noticias</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Contacto</a>
+                        </li>
+                        <li class="li-menu">
+                                <a>Sobre nosotros</a>
+                        </li>
                 </ul>
-            </div>
-        <div class="side-menu">
-                <span class="desplegable" onclick="openNav()">&#9776; open</span>
-
         </div>
-    
+        <div class="container">
+                <div class="cards">
+                        <div class="card card-one">
+                                <img src="image/img_avatar3.png" class="img-card" alt="Home">
+                                <div class="card-container">
+                                        <h3>Nombre</h3>
+                                        <p>Datos personales</p>
+                                </div>
+                        </div>
+                        <div class="card card-two">
+                                <img src="image/img_avatar3.png" class="img-card" alt="Home">
+                                <div class="card-container">
+                                        <h3>Nombre</h3>
+                                        <p>Datos personales</p>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+
 </body>
+
 </html>
